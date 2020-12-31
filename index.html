@@ -1,47 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Miklos Bowling Portfolio</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-    <link rel="shortcut icon" href="favicon.ico">
+  <title>Miklos Bowling Portfolio</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
+  <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+  <link rel="shortcut icon" href="favicon.ico">
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-    <!-- FontAwesome JS -->
-    <script defer src="assets/fontawesome/js/all.js"></script>
+  <!-- FontAwesome JS -->
+  <script defer src="assets/fontawesome/js/all.js"></script>
 
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
 
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
-    <!-- github activity css -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+  <!-- github calendar css -->
+  <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+  <!-- github activity css -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+  <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
 
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
 
 </head>
 
 <body>
-    <!-- ******HEADER****** -->
-    <header class="header">
-        <div class="container clearfix">
-            <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="Miklos Bowling" />
-            <div class="profile-content float-left">
-                <h1 class="name">Miklos Bowling</h1>
-                <h2 class="desc">Portfolio Coming Soon</h2>
-            </div><!--//profile-->
-        </div><!--//container-->
-    </header><!--//header-->
+  <!-- ******HEADER****** -->
+  <header class="header">
+    <div class="container clearfix">
+      <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="Miklos Bowling" />
+      <div class="profile-content float-left">
+        <h1 class="name">Miklos Bowling</h1>
+        <h2 class="desc">Developer</h2>
+        <ul class="social list-inline">
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/miklosbowling/"><i class="fab fa-linkedin-in"></i></a></li>
+          <li class="list-inline-item"><a href="https://github.com/Miklos24/"><i class="fab fa-github-alt"></i></a></li>
+          <li class="list-inline-item"><a href="https://leetcode.com/miklos_bowling/"><i class="fas fa-code"></i></a></li>
+        </ul>
+      </div>
+      <!--//profile-->
+      <a class="btn btn-cta-primary float-right" href="mailto:miklos.bowling@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+    </div>
+    <!--//container-->
+  </header>
+  <!--//header-->
 
+  <div class="container sections-wrapper">
+    <div class="row">
+      <div class="primary col-lg-8 col-12">
+        <section class="about section">
+          <div class="section-inner">
+            <h2 class="heading">About Me</h2>
+            <div class="content">
+              <p>
+                In the practice of programming, there are two experiences that excite me most: extracting meaningful
+                information out of otherwise complex data and designing beautifully functional user experiences.
+              </p>
+              <p>
+                My passion for data analysis has led me to explore the field of artificial intelligence, which is
+                currently the focus of my CS major at Oregon State. The idea of training a computer to solve problems on its own by analyzing massive amounts of data has always amazed me. Additionally, I enjoy solving algorithm-related problems, and
+                have participated in a couple of competitive coding
+                competitions as a result. I could (and have) spend all day on Leet Code.
+              </p>
+              <p>
+
+              </p>
+
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </section>
+        <!--//section-->
+
+        <section class="latest section">
+          <div class="section-inner">
+            <h2 class="heading">Latest Projects</h2>
+            <div class="content">
+
+              <div class="item featured text-center">
+                <h3 class="title"><a href="https://twitter-popularity-map.herokuapp.com" target="_blank">Hated in the Nation</a></h3>
+                <p class="summary">An analysis of the most loved (and hated) states in the US</p>
+                <div class="featured-image has-ribbon">
+                  <a href="https://twitter-popularity-map.herokuapp.com" target="_blank">
+                    <img class="img-fluid project-image" src="assets/images/projects/map.png" alt="Twitter Analysis Map" />
+                  </a>
+                  <div class="ribbon">
+                    <div class="text">New</div>
+                  </div>
+                </div>
+
+                <div class="desc text-left">
+                  <p>
+                    For this project, I wanted to practice putting together a tech stack for a web app that is backended by some interesting data analysis. To that end, I decided to run a sentiment analysis on a sample of Tweets about the various states in the United States and produce a heatmap showing which states seemed to produce the most negative and positive sentiments in the Twitterverse. The project is backended by Flask, which uses Twitter's APIv2, pandas, and Natural Language Toolkit to do the analysis and stores the data in a PostgreSQL DB. This backend uses a REST API to communicate with the React front, which renders the data onto a heatmap of the United States and allows the user to query a specific date or sentiment.
+                  </p>
+                </div>
+                <!--//desc-->
+              </div>
+              <!--//item-->
+              <hr class="divider" />
+              <div class="item row">
+                <a class="col-md-4 col-12" href="https://github.com/osucs361wi20team16/JusText" target="_blank">
+                  <img class="img-fluid project-image" src="assets/images/projects/JusText.png" alt="JusText" />
+                </a>
+                <div class="desc col-md-8 col-12">
+                  <h3 class="title"> JusText - A Simple Commandline Text Editor </h3>
+                  <p class="mb-2"> I completed this project as part of a Software Development course at Oregon State. The text editor is written in Go, and was completed as a team using Agile methodologies. While developing this app, we wrote user stories, participated in standups, and managed revisions with Git. </p>
+                  <p><a class="more-link" href="https://github.com/osucs361wi20team16/JusText" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                </div>
+                <!--//desc-->
+              </div>
+              <!--//item-->
+
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </section>
+        <!--//section-->
+
+        <section class="experience section">
+          <div class="section-inner">
+            <h2 class="heading">Work Experience</h2>
+            <div class="content">
+              <div class="item">
+                <h3 class="title">Undergraduate Research Assistant - <span class="place"><a href="http://research.engr.oregonstate.edu/koretsky/home">Oregon State University</a></span> <span class="year">(2019 - Present)</span></h3>
+                <p>Worked with the Koretsky Research Group to craft an adaptive learning module targeted at increasing chemical engineering students' conceptual understanding of topics. Wrote PHP in the context of the Symfony framework to implement a dynamic web app hosted with AWS.</p>
+              </div>
+              <!--//item-->
+              <div class="item">
+                <h3 class="title">IS Service Desk Student Technician - <span class="place"><a href="https://is.oregonstate.edu/client-services">Oregon State University</a></span> <span class="year">(2018 - Present)</span></h3>
+                <p>Diagnosed 100+ customer technical issues within tight time constraints while developing proficiency in synthesizing information to generate solutions in unfamiliar situations. Cooperated with a team of IT experts to tackle more time-consuming problems.</p>
+              </div>
+              <!--//item-->
+
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </section>
+
+      </div>
+      <!--//primary-->
+      <div class="secondary col-lg-4 col-12">
+        <aside class="info aside section">
+          <div class="section-inner">
+            <h2 class="heading sr-only">Basic Information</h2>
+            <div class="content">
+              <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Corvallis, OR, US</li>
+                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:miklos.bowling@gmail.com">miklos.bowling@gmail.com</a></li>
+              </ul>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//aside-->
+
+        <aside class="skills aside section">
+          <div class="section-inner">
+            <h2 class="heading">Skills</h2>
+            <div class="content">
+
+              <div class="skillset">
+
+                <div class="item">
+                  <h3 class="level-title">Python for Data Science<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Extensive use of Python for algorithmic problem-solving; knowledge of numpy and pandas"><i
+                        class="fas fa-info-circle"></i>Advanced</span></h3>
+                  <div class="level-bar">
+                    <div class="level-bar-inner" data-level="90%">
+                    </div>
+                  </div>
+                  <!--//level-bar-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                  <h3 class="level-title">Javascript &amp; React <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Prior experience utilizing React to develop responsive single page applications"><i
+                        class="fas fa-info-circle"></i>Experienced</span></h3>
+                  <div class="level-bar">
+                    <div class="level-bar-inner" data-level="80%">
+                    </div>
+                  </div>
+                  <!--//level-bar-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                  <h3 class="level-title">C++<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Used repeatedly in CS coursework to explore programming fundamentals"><i
+                        class="fas fa-info-circle"></i>Experienced</span></h3>
+                  <div class="level-bar">
+                    <div class="level-bar-inner" data-level="80%">
+                    </div>
+                  </div>
+                  <!--//level-bar-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                  <h3 class="level-title">Java<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Used to program Android apps to control robots for robotics competitions"><i
+                        class="fas fa-info-circle"></i>Familiar</span></h3>
+                  <div class="level-bar">
+                    <div class="level-bar-inner" data-level="60%">
+                    </div>
+                  </div>
+                  <!--//level-bar-->
+                </div>
+                <!--//item-->
+
+              </div>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+        <aside class="education aside section">
+          <div class="section-inner">
+            <h2 class="heading">Education</h2>
+            <div class="content">
+              <div class="item">
+                <h3 class="title"><i class="fas fa-graduation-cap"></i> BA Computer Science</h3>
+                <h4 class="university">Oregon Stae University<span class="year">(2018-present)</span></h4>
+              </div>
+              <!--//item-->
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+        <aside class="languages aside section">
+          <div class="section-inner">
+            <h2 class="heading">Competitions</h2>
+            <div class="content">
+              <ul class="list-unstyled">
+                <li class="item">
+                  <span class="title"><strong><a href="https://codingcompetitions.withgoogle.com/hashcode"> Google Hash Code 2020</a></strong></span>
+                  <br class="visible-xs" />
+                  <span class="level"> Placed in top 50 teams in the United States among thousands worldwide. </span>
+                  <p><a class="more-link" href="https://github.com/Miklos24/hash_code_2020" target="_blank"><i class="fas fa-external-link-alt"></i>Link to submission</a></p>
+                </li>
+                <!--//item-->
+                <li class="item">
+                  <span class="title"><strong><a href="https://www.firstinspires.org/robotics/ftc"> First Tech Challenge</a></strong></span>
+                  <br class="visible-xs" />
+                  <span class="level"> Qualified for and participated in World Championship as Team Captain and lead programmer. </span>
+
+                </li>
+                <!--//item-->
+              </ul>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+        <aside class="list music aside section">
+          <div class="section-inner">
+            <h2 class="heading">Music I Code To</h2>
+            <div class="content">
+              <ul class="list-unstyled">
+                <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX3bH0P2uDnWA" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              </ul>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+        <aside class="credits aside section">
+          <div class="section-inner">
+            <h2 class="heading">Credits</h2>
+            <div class="content">
+              <ul class="list-unstyled pb-2">
+                <li><a href="https://getbootstrap.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
+                <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
+                <li><a href="https://jquery.com/" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery</a></li>
+
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+      </div>
+      <!--//secondary-->
+    </div>
+    <!--//row-->
+  </div>
+  <!--//masonry-->
+
+  <!-- ******FOOTER****** -->
+  <footer class="footer">
+    <div class="container text-center">
+      <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+      <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+    </div>
+    <!--//container-->
+  </footer>
+  <!--//footer-->
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+  <!-- github calendar plugin -->
+  <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+  <!-- github activity plugin -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
+
 </html>
